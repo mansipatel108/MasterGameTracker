@@ -19,25 +19,6 @@ Description: From this page user can create a tracker for their favourite game's
                     <h1>Tracker...</h1>
                     <div class="row">
                         <label for="PageSizeDropDownList" id="select-week">Select Week: </label>
-                        
-                    </div>
-
-    
-                                <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" BackColor="White" ></asp:Calendar>
-                            <asp:GridView runat="server" CssClass="table table-hover" BackColor="White"
-                    ID="WeeklyGamesGridView" DataKeyNames="gameID" OnSelectedIndexChanged="WeeklyGamesGridView_SelectedIndexChanged" AutoGenerateColumns="False">
-                        <Columns>
-                        <asp:BoundField DataField="GameType" HeaderText="Game Name" Visible="true" SortExpression="GameType" />
-                        <asp:BoundField DataField="Team1Name" HeaderText="Team1 Name" Visible="true" SortExpression="Team1Name" />
-                        <asp:BoundField DataField="Team2Name" HeaderText="Team2 Name" Visible="true" SortExpression="Team2Name" />
-                        <asp:BoundField DataField="Team1Score" HeaderText="Team1 Score" Visible="true" SortExpression="Team1Score" />
-                        <asp:BoundField DataField="Team2Score" HeaderText="Team2 Score" Visible="true" SortExpression="Team2Score" />
-                        <asp:BoundField DataField="GameWinner" HeaderText="GameWinner" Visible="true" SortExpression="GameWinner" />
-                        </Columns>
-                    </asp:GridView>
-    <asp:TextBox runat="server" ID="WeekTextBox"></asp:TextBox>
-                    <br />
-                    <br />
                     <div class="col-md-3 col-sm-6">
                         <div class="service-item">
                             <span class="image">
