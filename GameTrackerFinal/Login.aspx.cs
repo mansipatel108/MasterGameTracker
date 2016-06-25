@@ -54,28 +54,5 @@ namespace GameTrackerFinal
                 AlertFlash.Visible = true;
             }
         }
-
-        /*
-        protected void CancelButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Default.aspx");
-        }
-        */
-        /*protected void SaveButton_Click(object sender, EventArgs e)
-        {
-            using (DefaultConnection db = new DefaultConnection())
-            {
-                string query = (from User_info in db.User_info
-                                where User_info.userName == UserNameTextBox.Text && User_info.password == PasswordTextBox.Text
-                                select User_info.userName).FirstOrDefault();
-                if (query != null)
-                {
-                    Response.Redirect("~/Game.aspx");
-                }
-                else
-                    Response.Write("Invalid User");
-
-            }
-        }*/
     }
 }
