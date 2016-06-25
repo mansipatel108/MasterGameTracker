@@ -2,12 +2,12 @@
 <%--
 File Name: Login.aspx
 Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
-Website Name: http://gametrackerproject.azurewebsites.net/Default.aspx
+Website Name: http://projectgametracker.azurewebsites.net/
 Description: To create a tracker user must be Logged in on this page.
- @date: June 8, 2016
- @version: 0.0.1
- @date: June 15, 2016
- @version: 0.0.2
+ @date: June 8, 2016   @version: 0.0.1
+ @date: June 15, 2016  @version: 0.0.2
+ @date: June 24, 2016  @version: 0.0.3
+ 
       --%>
 
 
@@ -24,7 +24,7 @@ Description: To create a tracker user must be Logged in on this page.
 
                 </div>
 
-                <h1>Login Page</h1>
+                <h1>Login...</h1>
 
                 <div class="panel panel-primary">
                     <br />

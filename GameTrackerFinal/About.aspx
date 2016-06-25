@@ -3,7 +3,7 @@
 <%--
 File Name: About.aspx
 Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
-Website Name: http://gametrackerproject.azurewebsites.net/Default.aspx
+Website Name: http://projectgametracker.azurewebsites.net/
 Description:  This page contains the information about the authors and the website itself with images
  @date: June 8, 2016
  @version: 0.0.1

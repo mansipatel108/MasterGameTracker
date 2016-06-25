@@ -1,16 +1,13 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GameTrackerFinal.Site" %>
 
-<%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
-
 <%--
 File Name: Site.Master
 Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
-Website Name: http://gametrackerproject.azurewebsites.net/Default.aspx
+Website Name: http://projectgametracker.azurewebsites.net/
 Description: This is the Master Page for the website, which contains all the User_controls and Front-end dependances like CSS and JavaScript and the footer for the website.
- @date: June 8, 2016
- @version: 0.0.1
- @date: June 15, 2016
- @version: 0.0.2   
+ @date: June 8, 2016   @version: 0.0.1
+ @date: June 15, 2016  @version: 0.0.2
+ @date: June 24, 2016  @version: 0.0.3
       --%>
 
 <!DOCTYPE html>

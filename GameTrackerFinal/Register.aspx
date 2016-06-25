@@ -2,12 +2,11 @@
 <%--
 File Name: Register.aspx
 Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
-Website Name: http://gametrackerproject.azurewebsites.net/Default.aspx
+Website Name: http://projectgametracker.azurewebsites.net/
 Description: In order to get log in User must get registered on this page.
- @date: June 8, 2016
- @version: 0.0.1
- @date: June 15, 2016
- @version: 0.0.2
+ @date: June 8, 2016   @version: 0.0.1
+ @date: June 15, 2016  @version: 0.0.2
+ @date: June 24, 2016  @version: 0.0.3
       --%>
 
 
@@ -24,7 +23,7 @@ Description: In order to get log in User must get registered on this page.
 
                 </div>
 
-                <h1>Register Page</h1>
+                <h1>Register...</h1>
 
                 <h5>All Fields are Required</h5>
 

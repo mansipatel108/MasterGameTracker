@@ -3,12 +3,11 @@
 <%--
 File Name: Game.aspx
 Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
-Website Name: http://gametrackerproject.azurewebsites.net/Default.aspx
+Website Name: http://projectgametracker.azurewebsites.net/
 Description: From this page user can create a tracker for their favourite game's team
- @date: June 8, 2016
- @version: 0.0.1 
- @date: June 15, 2016
- @version: 0.0.2  
+ @date: June 8, 2016   @version: 0.0.1
+ @date: June 15, 2016  @version: 0.0.2
+ @date: June 24, 2016  @version: 0.0.3
 --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
