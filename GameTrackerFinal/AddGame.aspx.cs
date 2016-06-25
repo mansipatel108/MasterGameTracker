@@ -51,6 +51,21 @@ namespace GameTrackerFinal
             Response.Redirect("~/Game.aspx");
         }
 
+        protected void TeamScore2TextBox_TextChanged(object sender, EventArgs e)
+        {
+            int score1 = Convert.ToInt32(TeamScore1TextBox.Text);
+            int score2 = Convert.ToInt32(TeamScore2TextBox.Text);
+
+            if (score1 > score2)
+            {
+                WinnerTextBox.Text = "Team1";
+            }
+            else
+            {
+                WinnerTextBox.Text = "Team2";
+            }
+        }
+
         protected void AddButton_Click(object sender, EventArgs e)
         {
             // Use EF to connect to the server
@@ -72,6 +87,7 @@ namespace GameTrackerFinal
                                where Game_info.gameID == gameID
                                select Game_info).FirstOrDefault();
                 }
+
 
                 // add form data to the new game record
                 newGame.gameType = GameTextBox.Text;

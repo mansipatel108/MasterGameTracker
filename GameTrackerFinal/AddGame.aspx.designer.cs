@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GameTrackerFinal
-{
-
-
-    public partial class AddGame
-    {
-
+namespace GameTrackerFinal {
+    
+    
+    public partial class AddGame {
+        
         /// <summary>
         /// GameTextBox control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox GameTextBox;
-
+        
         /// <summary>
         /// TeamName1TextBox control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TeamName1TextBox;
-
+        
         /// <summary>
         /// TeamName2TextBox control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TeamName2TextBox;
-
+        
         /// <summary>
         /// TeamScore1TextBox control.
         /// </summary>
@@ -49,7 +47,16 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TeamScore1TextBox;
-
+        
+        /// <summary>
+        /// Team1RangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator Team1RangeValidator;
+        
         /// <summary>
         /// TeamScore2TextBox control.
         /// </summary>
@@ -58,7 +65,16 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TeamScore2TextBox;
-
+        
+        /// <summary>
+        /// Team2RangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator Team2RangeValidator;
+        
         /// <summary>
         /// WeekTextBox control.
         /// </summary>
@@ -67,16 +83,7 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox WeekTextBox;
-
-        /// <summary>
-        /// WeekRangeValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator WeekRangeValidator;
-
+        
         /// <summary>
         /// WinnerTextBox control.
         /// </summary>
@@ -85,7 +92,7 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox WinnerTextBox;
-
+        
         /// <summary>
         /// CancelButton control.
         /// </summary>
@@ -94,7 +101,7 @@ namespace GameTrackerFinal
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button CancelButton;
-
+        
         /// <summary>
         /// AddButton control.
         /// </summary>
