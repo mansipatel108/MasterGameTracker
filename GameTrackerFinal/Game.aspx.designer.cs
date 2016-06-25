@@ -13,13 +13,13 @@ namespace GameTrackerFinal {
     public partial class Game {
         
         /// <summary>
-        /// WeekTextBox control.
+        /// WeeklyGame control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox WeekTextBox;
+        protected global::System.Web.UI.WebControls.GridView WeeklyGame;
         
         /// <summary>
         /// Calendar1 control.
@@ -31,6 +31,15 @@ namespace GameTrackerFinal {
         protected global::System.Web.UI.WebControls.Calendar Calendar1;
         
         /// <summary>
+        /// WeekTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox WeekTextBox;
+        
+        /// <summary>
         /// WeeklyGamesGridView control.
         /// </summary>
         /// <remarks>
@@ -38,14 +47,5 @@ namespace GameTrackerFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView WeeklyGamesGridView;
-        
-        /// <summary>
-        /// WeeklyGame control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView WeeklyGame;
     }
 }

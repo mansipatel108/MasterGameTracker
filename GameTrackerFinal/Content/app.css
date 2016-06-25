@@ -116,6 +116,13 @@ color: #ffd800;
      font-size: 20px;
      font-family: cursive  ;
  }
+ div.panel.panel-primary{
+     background-color: black;
+     border: ridge;
+ }
+ table#MainContent_Calendar1{
+    padding-left: 150px;
+ }
  /* Pagination Style
 -------------------------------------------------- */
 ​

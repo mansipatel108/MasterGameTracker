@@ -32,12 +32,6 @@ Description: In order to get log in User must get registered on this page.
 
                 <div class="panel panel-primary">
 
-                    <div class="panel-heading">
-
-                        <h1 class="panel-title"><i class="fa fa-user-plus fa-lg"></i> Register</h1>
-
-                    </div>
-
                     <div class="panel-body">
 
                         <div class="form-group">
