@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 
 // using statements that are required to connect to EF DB
 using GameTrackerFinal.Model;
-//using System.Web.ModelBinding;
-using System.Linq.Dynamic;
+using System.Web.ModelBinding;
 using System.Globalization;
+using System.Linq.Dynamic;
 
 namespace GameTrackerFinal
 {
