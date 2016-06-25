@@ -53,7 +53,7 @@ namespace GameTrackerFinal
 
         /**
          * <summary>
-         * This event handler allows pagination to occur for the Students page
+         * This event handler allows pagination to occur for the GameDetails page
          * </summary>
          * 
          * @method GamessGridView_PageIndexChanging

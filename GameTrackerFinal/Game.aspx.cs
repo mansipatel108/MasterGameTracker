@@ -4,8 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using GameTrackerFinal.Model;
 using System.Globalization;
+
+// using statements required for EF DB access
+using GameTrackerFinal.Model;
 using System.Web.ModelBinding;
 using System.Linq.Dynamic;
 namespace GameTrackerFinal

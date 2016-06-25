@@ -51,6 +51,17 @@ namespace GameTrackerFinal
             Response.Redirect("~/Game.aspx");
         }
 
+        /**
+         * <summary>
+         * This event handler will decide the winning team
+         * </summary>
+         * 
+         * @method TeamScore2TextBox_TextChanged
+         * @param {object} sender
+         * @param {TextChangedEventArgs} e
+         * @returns {void}
+         */
+
         protected void TeamScore2TextBox_TextChanged(object sender, EventArgs e)
         {
             int score1 = Convert.ToInt32(TeamScore1TextBox.Text);
