@@ -16,7 +16,7 @@ namespace GameTrackerFinal
         {
             if (!IsPostBack) 
             {
-                this.GetGames();
+             //   this.GetGames();
             }
         }
         /**
@@ -27,6 +27,7 @@ namespace GameTrackerFinal
                * @method GetGames
                * @returns {void}
                */
+               /**
         protected void GetGames()
         {
             using (GameConnection db = new GameConnection())
@@ -96,5 +97,6 @@ namespace GameTrackerFinal
         {
             WeekTextBox.Text = Convert.ToString(WeekOfYear(Calendar1.SelectedDate));
         }
+        **/
     }
 }
